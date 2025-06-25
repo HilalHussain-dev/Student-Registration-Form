@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="shortcut icon" href="regis favicon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <h2>Enter your Valid Details</h2>
+    <p>Full Name <input type="text" placeholder="Your Name" required></p>
+    <p>Email Address <input type="email" placeholder="Email" required></p>
+    <p>Password <input type="password" placeholder="Password" required></p>
+    <p>Date of birth <input type="date" required></p>
+
+    <h2>Gender</h2>
+    <label><input type="radio" name="gender" value="male"> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+    <label><input type="radio" name="gender" value="other"> Other</label>
+
+    <h2>Department</h2>
+    <p>Choose your department</p>
+    <select name="department" >
+      <option value="">Please choose Your Department</option>
+      <option value="SE">Software Engineering</option>
+      <option value="CS">Computer Science</option>
+      <option value="DS">Data Science</option>
+      <option value="AI">Aritifical intellegence</option>
+</select>
+      <h2>Interset</h2>
+      <label><input type="checkbox" name="Reading">Reading</label>
+      <label><input type="checkbox" name="Sports">Sports</label>
+      <label><input type="checkbox" name="Coding">Coding</label>
+
+      <h2>Why you Join this Institute</h2>
+      <textarea name="reason" rows="5" ></textarea>
+
+      <h2>Term and conditions</h2>
+      <label><input type="checkbox" required>I accept all terms and conditions</label>
+
+      <h2>Submit Your Registration Form</h2>
+      <button>Submit</button>
+      <button>Rest</button>
+</body>
+</html>
