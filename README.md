@@ -1,2 +1,2 @@
-# Sstudent-Registration-Form
-Student Registration Form For Admission 
+# Student-Registration-Form
+Student Registration Form For Admission Using HTML 
